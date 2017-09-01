@@ -1,3 +1,7 @@
+/**
+ * BinarySearch is a `divide strategy` algorithm. Binary search divides the size
+ * of the problem into halves until it finds a result.
+ */
 function binarySearch (min, max, randomNumber, nrRecursiveCalls = 1) {
   const guess = Math.ceil((min + max) / 2)
   if (randomNumber <= 0) {
